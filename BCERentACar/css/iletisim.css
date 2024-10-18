@@ -1,0 +1,246 @@
+/* GENARAL SETTİNGS */
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../fonts/Quicksand-VariableFont_wght.tff');
+    font-family: 'Geologica';
+    src: url('../fonts/Geologica-Regular.ttf');
+    
+}
+
+body {
+    background: white;
+    color: #3f3f3f;
+    font: 14 / 28px;
+    font-family: Geologica;
+}
+
+h1 {
+    font-size: 52px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.section-header {
+    background: #265CFF;
+    border-bottom: 6px solid #000;
+    height: 80px;
+    color: #fff;
+    display: inline-block;
+    line-height: 60px;
+    font-size: 24px;
+    padding: 5px 40px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.section-area {
+    padding: 80px 0;
+}
+
+h4 {
+    font-size: 30px;
+    color: #265CFF;
+    transition: all .5s ease;
+}
+
+/* GRID SETTİNGS */
+
+.col1 {
+    flex-grow: 1;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container-head {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    color: black;
+    background: black;
+}
+
+.engine-body .container {
+    justify-content: space-between;
+}
+
+.col3 {
+    flex-grow: 1;
+    width: 50%;
+    padding: 30px;
+}
+
+.col3 img {
+    border-radius: 70px;
+}
+
+.col3 a {
+    font-family: Quicksand;
+    font-size: 40px;
+    color: aqua;
+    text-decoration: none;
+}
+
+/* ANA SAYFA SETTİNGS */
+
+header .logo {
+    margin-right: auto;
+    
+}
+
+header .logo img {
+    display: block;
+    height: 100px;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    padding: 27px 17px;
+    display: block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: darkgrey;
+    transition: all .5s ease;
+}
+
+.menu li:hover a {
+    background: #265CFF;
+    
+}
+
+#main-slider {
+    height: 700px;
+    background: url('../img/mainhome.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.slider {
+    width: 100%;
+}
+
+
+#main-caption {
+    height: 700px;
+    background: rgba(0,0,0, .6);
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: aliceblue;
+}
+
+.engine-top {
+    text-align: center;
+}
+
+.engine-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-over {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.engine-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(38,92,255,.7);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    text-align: center;
+    border-radius: 70px;
+    
+}
+
+.engine-container:hover .engine-overlay {
+    width: 100%;
+    border-radius: 70px;
+}
+
+.engine-link {
+    white-space: nowrap;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.engine-text {
+    white-space: nowrap;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    background: linear-gradient(
+                rgba(0,0,0,.7),
+                rgba(0,0,0,.7)
+                ),
+                url('../img/alt.jpg') center center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:bottom;
+    text-align: center;
+    height: 300px;
+    
+}
+
+.iletisim-section-area {
+    background: black;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:bottom;
+    text-align: center;
+}
+
+.footer-item {
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.footer-item img {
+    height: 150px;
+    opacity: 0.4;
+    border-radius: 70px;
+}
+
+.footer-item p {
+    font-size: 15px;
+    color: dimgrey;
+}
+
+.footer-item a {
+    height: 60px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}

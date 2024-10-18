@@ -1,0 +1,483 @@
+/* GENARAL SETTİNGS */
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('../fonts/Quicksand-VariableFont_wght.tff');
+    font-family: 'Geologica';
+    src: url('../fonts/Geologica-Regular.ttf');
+    
+}
+
+body {
+    background: white;
+    color: #3f3f3f;
+    font: 14 / 28px;
+    font-family: Geologica;
+}
+
+h1 {
+    font-size: 52px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.section-header {
+    background: #265CFF;
+    border-bottom: 6px solid #000;
+    height: 80px;
+    color: #fff;
+    display: inline-block;
+    line-height: 60px;
+    font-size: 24px;
+    padding: 5px 40px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.navi {
+    background: #265CFF;
+    border-bottom: 6px solid #000;
+    height: 60px;
+    color: #fff;
+    display: inline-block;
+    line-height: 60px;
+    font-size: 24px;
+    padding: 5px 40px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    
+}
+
+.section-area {
+    padding: 80px 0;
+}
+
+.navigation-area {
+    padding: 40px 0;
+}
+
+h3 {
+    font-size: 16px;
+    color: #265CFF;
+    transition: all .5s ease;
+}
+
+h4 {
+    font-size: 30px;
+    color: #265CFF;
+    transition: all .5s ease;
+}
+
+/* GRID SETTİNGS */
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container-head {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    color: black;
+    background: black;
+}
+
+.features-body .container {
+    justify-content: space-between;
+}
+
+.col3 {
+    flex-grow: 1;
+    width: 33,33%;
+}
+
+.engine-body .container {
+    justify-content: space-between;
+}
+
+.col2 {
+    flex-grow: 1;
+    width: 50%;
+    padding: 20px;
+}
+
+/* ANA SAYFA SETTİNGS */
+
+header .logo {
+    margin-right: auto;
+    
+}
+
+header .logo img {
+    display: block;
+    height: 100px;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    padding: 27px 17px;
+    display: block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: darkgrey;
+    transition: all .5s ease;
+}
+
+.menu li:hover a {
+    background: #265CFF;
+    
+}
+
+#main-slider {
+    height: 700px;
+    background: url('../img/mainhome.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#main-slider-kayit {
+    height: 200px;
+    background: white;
+    background-size: cover;
+}
+
+.slider {
+    width: 100%;
+}
+
+.slider-kayit {
+    width: 100%;
+}
+
+#main-caption {
+    height: 700px;
+    background: rgba(0,0,0, .6);
+}
+
+#main-caption-kayit {
+    height: 200px;
+    background: rgba(0,0,0, .6);
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: aliceblue;
+}
+
+.caption-kayit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: aliceblue;
+}
+
+.features-top {
+    text-align: center;
+}
+
+.item {
+    padding: 10px 20px;
+}
+
+.zoom {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+.zoom img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: all .5s ease;
+}
+
+.item .item-text {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #265CFF;
+}
+
+.item:hover .zoom img {
+    transform: scale(1.25);
+}
+
+.item:hover h3 {
+    color: #fff;
+}
+
+.item:hover .item-text {
+    background: #265CFF;
+    color: #fff;
+    transition: all .5s ease;
+}
+
+.btn-details {
+    color: #265CFF;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #265CFF;
+    transition: all .5s ease;
+}
+
+.item:hover .btn-details {
+    color: #fff;
+    border: 1px solid #fff;
+    
+}
+
+.item-text p {
+    margin: 20px 0;
+}
+
+#parallax {
+    background: linear-gradient(
+                rgba(0,0,0,.7),
+                rgba(0,0,0,.7)
+                ),
+                url('../img/paralax.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#parallax-kayit {
+    background: linear-gradient(
+                rgba(0,0,0,.7),
+                rgba(0,0,0,.7)
+                ),
+                url('../img/arackayit.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#parallax p {
+    color: #fff;
+}
+
+#navigation {
+    background: linear-gradient(
+                rgba(0,0,0,.7),
+                rgba(0,0,0,.7)
+                ),
+                url('../img/paralax.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#navigation a {
+    color: #fff;
+}
+
+.engine-top {
+    text-align: center;
+}
+
+.naviga {
+    text-align: center;
+}
+
+.engine-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-over {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.engine-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(38,92,255,.7);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s;
+}
+
+.engine-container:hover .engine-overlay {
+    width: 100%;
+}
+
+.engine-text {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.engine-text p {
+    
+}
+
+.engine-overlay2 {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: rgba(38,92,255,.7);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.engine-container:hover .engine-overlay2 {
+    width: 100%;
+    left: 0;
+}
+
+footer {
+    background: linear-gradient(
+                rgba(0,0,0,.7),
+                rgba(0,0,0,.7)
+                ),
+                url('../img/alt.jpg') center center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:bottom;
+    text-align: center;
+    
+}
+
+.footer-item {
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-item img {
+    height: 150px;
+    opacity: 0.4;
+}
+
+.footer-item p {
+    font-size: 15px;
+    color: dimgrey;
+}
+
+.footer-item a {
+    height: 60px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.sekmeler li {
+    float: left;
+}
+
+.sekmeler li a {
+    padding: 27px 17px;
+    display: block;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: darkgrey;
+    transition: all .5s ease;
+}
+
+
+/*KAYIT SEKMESİ İÇİN*/
+
+.kayit-container {
+    color: #fff;
+    display: center-table;
+    line-height: 37px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    align-content: center;
+    padding: 60px;
+    font-size: 30px;
+}
+
+.inputlar {
+    border: 0px solid limegreen;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.inp {
+    width: 300px;
+    height: 40px;
+    margin: auto;
+    font-size: 23px;
+    border-radius: 7px;
+}
+
+.inpresim {
+    width: 300px;
+    height: 40px;
+    margin: auto;
+    font-size: 23px;
+    border-radius: 7px;
+}
+
+.inpbutton {
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    background-color: aqua;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.7s;
+    border-radius: 7px;
+}
+
+.inpbutton:hover {
+    background-color: #373537;
+    color: aqua;
+    border: 1px solid aqua;
+}
+
+.incelebutton {
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    background-color: aqua;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.7s;
+    border-radius: 7px;
+}
+
+.incelebutton:hover {
+    background-color: #373537;
+    color: aqua;
+    border: 1px solid aqua;
+}
+
+.mb3 {
+    color: #265CFF;
+    font-family: Quicksand;
+}
+
+
